@@ -60,6 +60,10 @@ class CampaignShow extends Component {
               <div className="showPage-all-signed-up"> You are all signed up </div>
               <div className="showPage-you-got-pica"> You got your pica. Her name is Pica.</div>
               <div className="showPage-donation"> Feeling generous? Make a donation now to upgrade Pica. When Pica reaches higher level, she will bring you rare gemstone. </div>
+              <div className="showPage-button-group"> 
+                <Button className="showPage-make-donation-button"> Make a donation </Button>
+                <Button className="showPage-maybe-next-time-button"> Maybe next time </Button>
+              </div>
             </div>
       </Layout>
     );

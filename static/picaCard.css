@@ -72,6 +72,32 @@
     font-size: 16px;
     color: #3C3C3C;
     position: relative;
-    top: 225px;
+    top: 200px;
     width: 450px;
+}
+
+.showPage-button-group {
+    position: relative;
+    top: 250px;
+}
+
+.showPage-make-donation-button {
+    border: 2px solid #00B5AD;
+    border-radius: 4px;
+    width: 142px;
+    height: 36px;
+    font-family: BigCaslon-Medium;
+    font-size: 14px;
+    color: #00B5AD;
+}
+
+.showPage-maybe-next-time-button {
+    border: 1px solid #E0E1E2;
+    border-radius: 4px;
+    width: 142px;
+    height: 36px;
+    margin-left: 12px;
+    font-family: BigCaslon-Medium;
+    font-size: 14px;
+    color: rgba(0,0,0,0.60);
 }
