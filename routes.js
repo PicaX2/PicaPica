@@ -7,5 +7,4 @@ routes
   .add('/marriage/:marriage/requests', '/marriage/requests/index')
   .add('/marriage/:marriage/requests/new', '/marriage/requests/new');
 
-
 module.exports = routes;
