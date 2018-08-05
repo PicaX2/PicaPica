@@ -42,7 +42,7 @@ class MarriageNew extends Component {
 
         <Form onSubmit={this.onSubmit} error={this.state.errorMessage}>
           <Form.Field>
-            <label>Male</label>
+            <label>Partner A</label>
             <Input
               label="0x"
               labelPosition="left"
@@ -52,7 +52,7 @@ class MarriageNew extends Component {
           </Form.Field>
 
           <Form.Field>
-            <label>Female</label>
+            <label>Partner B</label>
             <Input
               label="0x"
               labelPosition="left"

@@ -41,7 +41,7 @@ class MarriageIndex extends Component {
        <a>
        <Button
          floated="right"
-         content="Let's marry!"
+         content="Let's get married!"
          icon="add circle"
          primary
        />
