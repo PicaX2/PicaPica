@@ -15,9 +15,14 @@ class MarriageIndex extends Component {
       return {
         header: marriage,
         description: (
-          <Link route={`/marriage/${marriage}`}>
-            <a>View Marriage</a>
-          </Link>
+          <div>
+            <Link route={`/marriage/${marriage}`}>
+              <a className="homePage-demo-button" >View Marriage</a>
+            </Link>
+            <Link route="/sendmessage">
+              <a className="homePage-demo-button" >Anniversary</a>
+            </Link>
+          </div>
         ),
         fluid: true
       };
