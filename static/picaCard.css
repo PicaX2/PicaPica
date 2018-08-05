@@ -89,6 +89,7 @@
     font-family: BigCaslon-Medium;
     font-size: 14px;
     color: #00B5AD;
+    cursor:pointer;
 }
 
 .showPage-maybe-next-time-button {
@@ -100,4 +101,5 @@
     font-family: BigCaslon-Medium;
     font-size: 14px;
     color: rgba(0,0,0,0.60);
+    cursor:pointer;
 }

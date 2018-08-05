@@ -28,6 +28,14 @@ class CampaignShow extends Component {
     };
   }
 
+  makeDonation = () => {
+    console.log("Make a Donation.");
+  }
+
+  cancle = () => {
+    console.log("Maybe next time.");
+  }
+
   render() {
     const {
       level, 
@@ -61,8 +69,8 @@ class CampaignShow extends Component {
               <div className="showPage-you-got-pica"> You got your pica. Her name is Pica.</div>
               <div className="showPage-donation"> Feeling generous? Make a donation now to upgrade Pica. When Pica reaches higher level, she will bring you rare gemstone. </div>
               <div className="showPage-button-group"> 
-                <Button className="showPage-make-donation-button"> Make a donation </Button>
-                <Button className="showPage-maybe-next-time-button"> Maybe next time </Button>
+                <button className="showPage-make-donation-button" onClick={ this.makeDonation }> Make a donation </button>
+                <button className="showPage-maybe-next-time-button" onClick={ this.cancel }> Maybe next time </button>
               </div>
             </div>
       </Layout>
