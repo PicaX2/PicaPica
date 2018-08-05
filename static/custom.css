@@ -64,7 +64,7 @@
     font-size: 16px;
     color: #3C3C3C;
     position: relative;
-    top: 140px;
+    top: 180px;
 }
 
 .showPage-donation {
@@ -72,13 +72,13 @@
     font-size: 16px;
     color: #3C3C3C;
     position: relative;
-    top: 200px;
+    top: 240px;
     width: 450px;
 }
 
 .showPage-button-group {
     position: relative;
-    top: 250px;
+    top: 260px;
 }
 
 .showPage-make-donation-button {

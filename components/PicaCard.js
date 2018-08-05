@@ -7,7 +7,7 @@ export default props => {
   
   return (
     <div className="pica-container">
-        <Image className="pica-image-l1" src='../../static/magpie_l1.svg' size='large'  />
+        <Image className="pica-image-l1" src='../../static/magpie_l1.svg' />
         <div className="pica-name">Pica</div>
         <div className="pica-description">
             Age: 1 <br />

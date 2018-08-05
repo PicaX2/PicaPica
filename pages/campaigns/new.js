@@ -37,7 +37,7 @@ class CampaignNew extends Component {
   render() {
     return (
       <Layout>
-        <link rel="stylesheet" href="../static/picaCard.css"></link>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"></link>
         <h1>Create a Marriage</h1>
 
         <Form onSubmit={this.onSubmit} error={this.state.errorMessage}>
