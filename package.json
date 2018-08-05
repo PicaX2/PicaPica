@@ -1,0 +1,30 @@
+{
+  "name": "pica-pica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "server": "node server.js",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-wallet": "^0.6.0",
+    "fs-extra": "^7.0.0",
+    "ganache-cli": "^6.1.6",
+    "mocha": "^5.2.0",
+    "next": "^4.1.4",
+    "next-routes": "^1.4.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.1",
+    "solc": "^0.4.24",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.26"
+  }
+}
