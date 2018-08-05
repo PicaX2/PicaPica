@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="143px" height="128px" viewBox="0 0 143 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ring</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop-HD-Copy-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-122.000000, -1661.000000)">
+        <g id="Group-7" transform="translate(109.000000, 1619.000000)" fill-rule="nonzero">
+            <g id="ring" transform="translate(85.000000, 85.171573) rotate(-45.000000) translate(-85.000000, -85.171573) translate(25.000000, 25.171573)">
+                <g id="Group">
+                    <polygon id="Shape" fill="#66AFB5" points="47.6352 71.52 116.6064 103.3656 119.1336 59.0688 60.0648 0 15.768 2.5272 47.6136 71.4984 47.604 71.5056 47.6208 71.5128 47.628 71.5296"></polygon>
+                    <polygon id="Shape" fill="#D5EEF4" points="43.2696 30.0264 60.0648 0 30.5376 17.2944"></polygon>
+                    <polygon id="Shape" fill="#D5EEF4" points="89.1072 75.8616 119.1336 59.0688 101.8392 88.596"></polygon>
+                    <polygon id="Shape" fill="#BFE5EB" points="116.6088 103.3656 0.1392 118.9944 15.768 2.5248"></polygon>
+                    <polygon id="Shape" fill="#8CC8CD" points="89.1072 75.8616 0.1416 118.992 43.2696 30.0264"></polygon>
+                    <polygon id="Shape" fill="#7CBCC2" points="66.1896 52.944 24.6984 68.3376 50.796 94.4352"></polygon>
+                    <polygon id="Shape" fill="#D5EEF4" points="50.796 94.4352 70.8456 109.5072 101.8392 88.596"></polygon>
+                    <polygon id="Shape" fill="#D5EEF4" points="24.6984 68.3376 9.6264 48.288 30.5376 17.2944"></polygon>
+                    <polygon id="Shape" fill="#8CC8CD" points="60.0648 0 66.1896 52.944 119.1336 59.0688"></polygon>
+                    <polygon id="Shape" fill="#D5EEF4" points="43.2696 30.0264 89.5944 29.5392 89.1072 75.8616"></polygon>
+                </g>
+                <path d="M67.2408,29.5344 C48.8928,32.64 46.3752,35.1576 43.2696,53.5056 C40.164,35.1576 37.6464,32.64 19.2984,29.5344 C37.6464,26.4288 40.164,23.9112 43.2696,5.5632 C46.3752,23.9112 48.8928,26.4288 67.2408,29.5344 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -7,10 +7,11 @@ export default props => {
   return (
     <Container>
       <Head>
-      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"></link>
+        {/* <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"></link> */}
+        <link rel="stylesheet" href="../static/picaCard.css"></link>
       </Head>
       
-      <Header />
+      {/* <Header /> */}
       {props.children}
     </Container>
   );

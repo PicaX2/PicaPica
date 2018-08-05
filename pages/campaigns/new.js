@@ -37,6 +37,7 @@ class CampaignNew extends Component {
   render() {
     return (
       <Layout>
+        <link rel="stylesheet" href="../static/picaCard.css"></link>
         <h1>Create a Marriage</h1>
 
         <Form onSubmit={this.onSubmit} error={this.state.errorMessage}>
