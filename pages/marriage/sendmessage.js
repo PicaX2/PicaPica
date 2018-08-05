@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, Button, Input, Message, Container } from 'semantic-ui-react';
+import { Form, Button, Input, Message, Container, Image } from 'semantic-ui-react';
 import Layout from '../../components/Layout';
 import web3 from '../../ethereum/web3';
 import { Router } from '../../routes';
@@ -72,11 +72,19 @@ class MarriageNew extends Component {
     )
   }
 
-  render() {
+  renderLeftPanel = () => {
     return (
-      <Layout>
-        <h1>Send a message</h1>
+      <div className="anniversary-left-panel">
+        <Image className="anniversary-pica-image-l1" src='../../static/magpie_l1.svg' />
+        <div className="anniversary-pica-name">Pica</div>
+      </div>
+    )
+  }
 
+  renderRightPanel = () => {
+    return (
+      <div className="anniversary-right-panel">
+        <h1>Send a message</h1>
         <Form onSubmit={this.onSubmit} error={this.state.errorMessage}>
           <Form.Field>
             <label>Event name</label>
@@ -106,6 +114,15 @@ class MarriageNew extends Component {
           <Button loading={this.state.loading} primary>Send Message!</Button>
         </Form>
         { this.state.showMessage ? this.renderRevealMessages() : null }
+      </div>
+    )
+  }
+
+  render() {
+    return (
+      <Layout>
+        { this.renderLeftPanel() }
+        { this.renderRightPanel() }
       </Layout>
     );
   }

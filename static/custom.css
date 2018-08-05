@@ -124,3 +124,39 @@
 .homePage-demo-button {
     margin-right: 15px;
 }
+
+.anniversary-left-panel {
+    background: #FFFFFF;
+    box-shadow: 0 6px 25px 0 rgba(31,53,62,0.10);
+    border-radius: 10px;
+    width: 253px;
+    height: 309px;
+    position: absolute;
+    top: 150px;
+    left: 180px;
+}
+
+.anniversary-right-panel {
+    position: absolute;
+    top: 90px;
+    left: 725px;
+    height: 100%;
+    width: 650px;
+}
+.anniversary-pica-image-l1 {
+    width: 186px;
+    height: 115px;
+    position: absolute;
+    top: 57px;
+    left: 34px;
+}
+
+.anniversary-pica-name {
+    font-family: BigCaslon-Medium;
+    font-size: 40px;
+    color: #111111;
+    letter-spacing: 2.42px;
+    position: relative;
+    top: 96px;
+    left: 79px;
+}
