@@ -1,5 +1,11 @@
 import React from 'react';
+import Layout from '../components/Layout';
+import { Image } from 'semantic-ui-react';
 
 export default  () => {
-    return <h1>Demo page for level up</h1>
+    return (
+      <Layout>
+        <Image className="demo-screenshot" src='../static/levelup.png' />
+      </Layout>
+    )
 }
