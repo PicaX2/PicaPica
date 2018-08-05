@@ -16,7 +16,7 @@ class CampaignIndex extends Component {
         header: marriage,
         description: (
           <Link route={`/campaigns/${marriage}`}>
-            <a>View Campaign</a>
+            <a>View Marriage</a>
           </Link>
         ),
         fluid: true
@@ -30,13 +30,13 @@ class CampaignIndex extends Component {
     return (
     <Layout>
      <div>
-     <h3>Open Campaigns</h3>
+     <h3>System Records</h3>
 
      <Link route="/campaigns/new">
        <a>
        <Button
          floated="right"
-         content="Create Marriage"
+         content="Let's marry!"
          icon="add circle"
          primary
        />
