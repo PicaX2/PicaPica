@@ -139,9 +139,9 @@
 .anniversary-right-panel {
     position: absolute;
     top: 90px;
-    left: 750px;
+    left: 550px;
     height: 100%;
-    width: 500px;
+    width: 600px;
 }
 .anniversary-pica-image-l1 {
     width: 186px;
@@ -159,4 +159,22 @@
     position: relative;
     top: 96px;
     left: 79px;
+}
+
+.anniversary-question {
+    font-family: BigCaslon-Medium;
+    font-size: 30px;
+    color: #3C3C3C;
+}
+
+.anniversary-question-label {
+    font-family: BigCaslon-Medium;
+    font-size: 13px;
+    color: #3C3C3C;
+    margin-top: 10px;
+}
+
+#__next > div > div > div.anniversary-right-panel > form > div:nth-child(1) > div.ui.input {
+    height: 300px;
+    margin-top: 10px;
 }

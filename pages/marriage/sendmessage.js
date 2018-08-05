@@ -84,22 +84,23 @@ class MarriageNew extends Component {
   renderRightPanel = () => {
     return (
       <div className="anniversary-right-panel">
-        <h1>Send a message</h1>
+        <div className="anniversary-question">How did you meet your partner?</div>
         <Form onSubmit={this.onSubmit} error={this.state.errorMessage}>
+          <Form.Field>
+            <div className="anniversary-question-label">Write down what you feel the first time you met. Tell the story to Pica.</div>
+            <Input
+              className="anniversary-question-input"
+              value={this.state.message}
+              onChange={event =>
+                this.setState({ message: event.target.value })}/>
+          </Form.Field>
+
           <Form.Field>
             <label>Event name</label>
             <Input
               value={this.state.eventName}
               onChange={event =>
                 this.setState({ eventName: event.target.value })}/>
-          </Form.Field>
-
-          <Form.Field>
-            <label>Message</label>
-            <Input
-              value={this.state.message}
-              onChange={event =>
-                this.setState({ message: event.target.value })}/>
           </Form.Field>
 
           <Form.Field>
