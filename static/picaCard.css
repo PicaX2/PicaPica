@@ -1,3 +1,9 @@
+.showPage-left {
+    position: absolute;
+    top: 50px;
+    left: 109px;
+}
+
 .pica-container {
     background: #FFFFFF;
     box-shadow: 0 12px 50px 0 rgba(31,53,62,0.10);
@@ -35,4 +41,37 @@
     position: absolute;
     top: 506px;
     left: 166px;
+}
+
+.showPage-right {
+    position: absolute;
+    top: 50px;
+    left: 725px;
+    width: 100%;
+    height: 100%;
+}
+
+.showPage-all-signed-up {
+    font-family: BigCaslon-Medium;
+    font-size: 55px;
+    color: #3C3C3C;
+    position: relative;
+    top: 120px;
+}
+
+.showPage-you-got-pica {
+    font-family: BigCaslon-Medium;
+    font-size: 16px;
+    color: #3C3C3C;
+    position: relative;
+    top: 140px;
+}
+
+.showPage-donation {
+    font-family: BigCaslon-Medium;
+    font-size: 16px;
+    color: #3C3C3C;
+    position: relative;
+    top: 225px;
+    width: 450px;
 }

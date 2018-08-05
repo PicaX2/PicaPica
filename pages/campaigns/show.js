@@ -47,13 +47,20 @@ class CampaignShow extends Component {
 
     return (
       <Layout>
-          <PicaCard 
-            picaName = { picaName }
-            picaAge = { picaAge }
-            picaHabbit = { picaHabbit }
-            partner1 = { partner1 }
-            partner2 = { partner2 }
-          />
+            <div className="showPage-left">
+              <PicaCard
+                picaName = { picaName }
+                picaAge = { picaAge }
+                picaHabbit = { picaHabbit }
+                partner1 = { partner1 }
+                partner2 = { partner2 }
+              />
+            </div>
+            <div className="showPage-right">
+              <div className="showPage-all-signed-up"> You are all signed up </div>
+              <div className="showPage-you-got-pica"> You got your pica. Her name is Pica.</div>
+              <div className="showPage-donation"> Feeling generous? Make a donation now to upgrade Pica. When Pica reaches higher level, she will bring you rare gemstone. </div>
+            </div>
       </Layout>
     );
   }
