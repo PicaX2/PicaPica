@@ -63,6 +63,16 @@ class CampaignShow extends Component {
                 partner1 = { partner1 }
                 partner2 = { partner2 }
               />
+              <Link route="/sendmessage">
+                <a>
+                  <Button
+                    floated="right"
+                    content="Send Message"
+                    icon="add circle"
+                    primary
+                  />
+                </a>
+              </Link>
             </div>
             <div className="showPage-right">
               <div className="showPage-all-signed-up"> You are all signed up </div>
