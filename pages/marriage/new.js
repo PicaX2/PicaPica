@@ -5,7 +5,7 @@ import factory from '../../ethereum/factory';
 import web3 from '../../ethereum/web3';
 import { Router } from '../../routes';
 
-class CampaignNew extends Component {
+class MarriageNew extends Component {
   state = {
     address1: '',
     address2: '',
@@ -69,4 +69,4 @@ class CampaignNew extends Component {
   }
 }
 
-export default CampaignNew;
+export default MarriageNew;

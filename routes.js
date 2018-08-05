@@ -1,11 +1,11 @@
 const routes = require('next-routes')();
 
 routes
-  .add('/campaigns/new', '/campaigns/new')
-  .add('/campaigns/:marriage', '/campaigns/show')
-  .add('/sendmessage', '/campaigns/sendmessage')
-  .add('/campaigns/:marriage/requests', '/campaigns/requests/index')
-  .add('/campaigns/:marriage/requests/new', '/campaigns/requests/new');
+  .add('/marriage/new', '/marriage/new')
+  .add('/marriage/:marriage', '/marriage/show')
+  .add('/sendmessage', '/marriage/sendmessage')
+  .add('/marriage/:marriage/requests', '/marriage/requests/index')
+  .add('/marriage/:marriage/requests/new', '/marriage/requests/new');
 
 
 module.exports = routes;

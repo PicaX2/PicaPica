@@ -4,18 +4,18 @@ import factory from '../ethereum/factory';
 import Layout from '../components/Layout';
 import { Link } from '../routes';
 
-class CampaignIndex extends Component {
+class MarriageIndex extends Component {
   static async getInitialProps() {
     const marriages = await factory.methods.getMarriages().call();
     return { marriages };
   }
 
-  renderCampaigns() {
+  renderMarriage() {
     const items = this.props.marriages.map(marriage => {
       return {
         header: marriage,
         description: (
-          <Link route={`/campaigns/${marriage}`}>
+          <Link route={`/marriage/${marriage}`}>
             <a>View Marriage</a>
           </Link>
         ),
@@ -32,7 +32,7 @@ class CampaignIndex extends Component {
      <div>
      <h3>System Records</h3>
 
-     <Link route="/campaigns/new">
+     <Link route="/marriage/new">
        <a>
        <Button
          floated="right"
@@ -44,7 +44,7 @@ class CampaignIndex extends Component {
      </Link>
 
 
-    {this.renderCampaigns()}
+    {this.renderMarriage()}
 
     </div>
     </Layout>);
@@ -52,4 +52,4 @@ class CampaignIndex extends Component {
   }
 }
 
-export default CampaignIndex;
+export default MarriageIndex;

@@ -6,7 +6,7 @@ import web3 from '../../ethereum/web3';
 import { Router } from '../../routes';
 import Marriage from '../../components/Marriage';
 
-class CampaignNew extends Component {
+class MarriageNew extends Component {
   state = {
     eventName: '',
     message: '',
@@ -74,4 +74,4 @@ class CampaignNew extends Component {
   }
 }
 
-export default CampaignNew;
+export default MarriageNew;
