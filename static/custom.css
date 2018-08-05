@@ -182,3 +182,29 @@
 .demo-screenshot {
     width: 100%;
 }
+
+.welcomePage-nav-links {
+    text-align: center;
+    margin: 10px;
+    font-family: BigCaslon-Medium;
+    font-size: 18px;
+    color: #00B5AD;
+    cursor:pointer;
+}
+
+a:link {
+    color:  #3C3C3C;
+}
+
+a:visited {
+    color: #3C3C3C;
+}
+
+a:hover {
+    color: #00B5AD;
+    text-decoration: underline;
+}
+
+Img {
+    cursor: pointer;
+}

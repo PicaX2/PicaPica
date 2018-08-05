@@ -1,60 +1,31 @@
-import React, { Component } from 'react';
-import { Card, Button } from 'semantic-ui-react';
-import factory from '../ethereum/factory';
+import React from 'react';
 import Layout from '../components/Layout';
+import { Image } from 'semantic-ui-react';
 import { Link } from '../routes';
 
-class MarriageIndex extends Component {
-  static async getInitialProps() {
-    const marriages = await factory.methods.getMarriages().call();
-    return { marriages };
-  }
-
-  renderMarriage() {
-    const items = this.props.marriages.map(marriage => {
-      return {
-        header: marriage,
-        description: (
-          <div>
-            <Link route={`/marriage/${marriage}`}>
-              <a className="homePage-demo-button" >View Marriage</a>
-            </Link>
-            <Link route={`/sendmessage/${marriage}`}>
-              <a className="homePage-demo-button" >Anniversary</a>
-            </Link>
-          </div>
-        ),
-        fluid: true
-      };
-    });
-
-    return <Card.Group items={items} />;
-  }
-
-  render() {
+export default  () => {
     return (
-    <Layout>
-     <div>
-     <h3>System Records</h3>
-
-     <Link route="/marriage/new">
-       <a>
-       <Button
-         floated="right"
-         content="Let's marry!"
-         icon="add circle"
-         primary
-       />
-       </a>
-     </Link>
-
-
-    {this.renderMarriage()}
-
-    </div>
-    </Layout>);
-
-  }
+      <Layout>
+        <div className="welcomePage-nav-links">
+            <Link route="/demo">
+                <a className="homePage-demo-button" >What's Pica</a>
+            </Link>
+            <Link route="/demo">
+                <a className="homePage-demo-button" >Demo</a>
+            </Link>
+            <Link route="/demo">
+                <a className="homePage-demo-button" >About us</a>
+            </Link>
+        </div>
+        <Link route="/demo">
+            <Image className="demo-screenshot" src='../static/welcome-1.png' />
+        </Link>
+        <Link route="/levelup">
+            <Image className="demo-screenshot" src='../static/welcome-2.png' />
+        </Link>
+        <Link route="/gem">
+            <Image className="demo-screenshot" src='../static/welcome-3.png' />
+        </Link>
+      </Layout>
+    )
 }
-
-export default MarriageIndex;
