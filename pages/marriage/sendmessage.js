@@ -63,7 +63,7 @@ class MarriageNew extends Component {
 
   renderRevealMessages = () => {
     const { msg1, msg2 } = this.state;
-    const { part1, part2 } = this.state;
+    const { part1, part2 } = this.props;
     return (
       <Container> 
         <div>{ part1 + " says: " + msg1 }</div>
