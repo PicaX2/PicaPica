@@ -133,15 +133,15 @@
     height: 309px;
     position: absolute;
     top: 150px;
-    left: 180px;
+    left: 250px;
 }
 
 .anniversary-right-panel {
     position: absolute;
     top: 90px;
-    left: 725px;
+    left: 750px;
     height: 100%;
-    width: 650px;
+    width: 500px;
 }
 .anniversary-pica-image-l1 {
     width: 186px;
