@@ -19,7 +19,7 @@ class MarriageIndex extends Component {
             <Link route={`/marriage/${marriage}`}>
               <a className="homePage-demo-button" >View Marriage</a>
             </Link>
-            <Link route="/sendmessage">
+            <Link route={`/sendmessage/${marriage}`}>
               <a className="homePage-demo-button" >Anniversary</a>
             </Link>
           </div>
