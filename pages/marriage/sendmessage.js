@@ -48,7 +48,14 @@ class MarriageNew extends Component {
         const msg1 = await marriage.methods.getMessage(eventName, part1).call();
         const msg2 = await marriage.methods.getMessage(eventName, part2).call();
 
-        if (!msg1 || !msg2) Router.pushRoute('/');
+        console.log("--> msg1 is " + msg1);
+        console.log("--> msg2 is " + msg2);
+
+        if (!msg1.length || !msg2.length) {
+          Router.pushRoute('/');
+          return;
+        }
+        
         this.setState({
           showMessage: true,
           msg1,

@@ -5,7 +5,7 @@ import { Image } from 'semantic-ui-react';
 export default  () => {
     return (
       <Layout>
-        <Image className="demo-screenshot" src='../static/new_gem.png' />
+        <Image className="demo-screenshot" src='../static/thanks.png' />
       </Layout>
     )
 }

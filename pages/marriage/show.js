@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { Button } from 'semantic-ui-react';
 import Marriage from '../../components/Marriage';
 import Layout from '../../components/Layout';
 import PicaCard from '../../components/PicaCard';
-import { Link } from '../../routes';
+import { Router } from '../../routes';
 
 class MarriageShow extends Component {
   static async getInitialProps(props) {
@@ -29,6 +28,7 @@ class MarriageShow extends Component {
 
   makeDonation = () => {
     console.log("Make a Donation.");
+    Router.pushRoute('/thanks');
   }
 
   cancle = () => {
